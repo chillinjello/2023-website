@@ -1,19 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta rel="icon" type="image/ico" href="/public/favicon.ico">
+    <title>Joel's knowledge base</title>
+    <meta name="description" content="A collection of Joel's interests. Including, but not limited to, music, books, hiking, games, and programming.">
+    <meta name="keywords" content="Joel Davidson, joelwdavidson, Joel, music, games, writing">
+
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
-    <script>
-        $(function(){
-            $("#home-page").load("home/home.html")
-        });
-    </script>
 </head>
 
 <body>
-    <div id="home-page"></div>
-    <div>Another test</div>
+    <div style="margin: 0px; color: white; padding-top: 150px; height: calc(100vh - 150px); background-image: url('images/background.jpg'); background-attachment: fixed; background-position: center; background-size: cover">
+        <div style="margin: auto; background-color: rgba(0,0,0,.7); max-width:50em; top: 150px; padding: 16px;"}}>
+            <div style="text-align: center;">
+                <div className="row">
+                    <h1>Joel Davidson</h1>
+                </div>
+                <div className="row">
+                    <img src="images/child-picture.jpg" width="200px" alt="A picture of me enjoying pizza"/>
+                </div>
+                <p>A site by and about Joel Davidson</p>
+            </div>
+            <hr style="border-width: 0.05px; border-color: white; margin-top: 15px;"/>
+            <div className="row">
+                <div className="2 col"></div>
+                <div className="3 col">
+                    <h5 style="text-align: center">Table of Contents:</h5>
+                    <div>
+                        <h5>Portfolio</h5>
+                        <h6><a href="src/GamePortfolio/gamePortfolio.html">Games I've Created</a></h6>
+                    </div>
+                    <div>
+                        <h5>Writing</h5>
+                        <h5><a href="src/Writing/Music/music.html">Music</h5></h6>
+                        <h6><a href="src/Writing/Books/books.html">Books</a></h6>
+                        <h6><a href="src/Writing/Games/games.html">Games</a></h6>
+                    </div>
+                </div>
+                <div className="2 col">
+
+                </div>
+            </div>
+            <hr style="border-width: 0.05px; border-color: white; margin-top: 15px;"></hr>
+            <div style="text-align: center; color: #ff9955">joelwdavidson@gmail.com</div>
+        </div>
+    </div>
 </body>
 
 </html>
