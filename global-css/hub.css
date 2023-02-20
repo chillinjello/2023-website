@@ -1,0 +1,19 @@
+.page-container {
+    margin: 0px;
+    color: white;
+    padding-top: 150px;
+    height: calc(100vh - 150px);
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.content-container{
+    margin: auto;
+    background-color: rgba(0,0,0,.7);
+    max-width:50em;
+    top: 150px;
+    padding: 16px;
+}
+
