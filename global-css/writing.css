@@ -50,3 +50,12 @@ a:active {
 ul {
     list-style: none;
 }
+
+img {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  max-width: 25em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
