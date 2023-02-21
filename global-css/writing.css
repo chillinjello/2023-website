@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    padding-top: 7%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+br {
+    content: "";
+    margin: 1em;
+    display: block;
+}
+
+.container {
+    max-width: 50em;
+    margin: auto;
+}
