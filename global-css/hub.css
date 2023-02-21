@@ -44,6 +44,11 @@ code {
     text-align: center;
 }
 
+.game-listing {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
 /* unvisited link */
 a:link {
   color: #ff9955;
